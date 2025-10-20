@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ---
 
 ## 📂 Repository Contents
-- **00_start_here.ipynb** → Main notebook to begin the demo  
+- **00_start_here.ipynb** → Main notebook 
 - **requirements.txt** → Python dependencies (pip)  
 - **environment.yml** → Conda environment file  
 
