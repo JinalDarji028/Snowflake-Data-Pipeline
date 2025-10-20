@@ -34,12 +34,33 @@ You can set up the Python environment in two ways:
 ```bash
 conda env create -f environment.yml
 conda activate snowflake_demo
-```bash
+Option 2: pip
 
-**Option 2: **
-```bash
+bash
+Copy code
 pip install -r requirements.txt
+📂 Repository Contents
+00_start_here.ipynb → Main notebook to begin the demo
 
+requirements.txt → Python dependencies (pip)
+
+environment.yml → Conda environment file
+
+🔄 Project Flow
+mermaid
+Copy code
+flowchart LR
+    A[GitHub Repo<br/>Version Control + CI/CD] --> B[Snowflake Setup<br/>Roles, Warehouses, Schemas]
+    B --> C[Pipeline Deployment<br/>Excel + City Metrics]
+    C --> D[External Data<br/>Weather Marketplace Integration]
+    D --> E[Task DAG Orchestration<br/>Snowpark Python API]
+    E --> F[Business Outcomes<br/>Reliable, Scalable, Fresh Data]
+📖 References
+Snowflake Quickstart: Data Engineering with Notebooks
+
+Snowflake Docs – Execute Immediate From
+
+Snowflake Python Management API
 
 
 
