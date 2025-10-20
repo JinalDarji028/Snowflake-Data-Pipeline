@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ## 🔄 Project Flow
 
 flowchart LR  
-    A[GitHub Repo<br/>Version Control + CI/CD] --> B[Snowflake Setup<br/>Roles, Warehouses, Schemas]  
+    A [GitHub Repo<br/>Version Control + CI/CD] --> B[Snowflake Setup<br/>Roles, Warehouses, Schemas]  
     B --> C[Pipeline Deployment<br/>Excel + City Metrics]  
     C --> D[External Data<br/>Weather Marketplace Integration]  
     D --> E[Task DAG Orchestration<br/>Snowpark Python API]  
