@@ -31,36 +31,35 @@ Demonstrate how Snowflake can be leveraged as a unified platform for **data engi
 You can set up the Python environment in two ways:
 
 **Option 1: Conda**
-```bash
-conda env create -f environment.yml
-conda activate snowflake_demo
-Option 2: pip
+conda env create -f environment.yml  
+conda activate snowflake_demo  
 
-bash
-Copy code
-pip install -r requirements.txt
-📂 Repository Contents
-00_start_here.ipynb → Main notebook to begin the demo
+**Option 2: pip**
+pip install -r requirements.txt  
 
-requirements.txt → Python dependencies (pip)
+---
 
-environment.yml → Conda environment file
+## 📂 Repository Contents
+- **00_start_here.ipynb** → Main notebook to begin the demo  
+- **requirements.txt** → Python dependencies (pip)  
+- **environment.yml** → Conda environment file  
 
-🔄 Project Flow
-mermaid
-Copy code
-flowchart LR
-    A[GitHub Repo<br/>Version Control + CI/CD] --> B[Snowflake Setup<br/>Roles, Warehouses, Schemas]
-    B --> C[Pipeline Deployment<br/>Excel + City Metrics]
-    C --> D[External Data<br/>Weather Marketplace Integration]
-    D --> E[Task DAG Orchestration<br/>Snowpark Python API]
-    E --> F[Business Outcomes<br/>Reliable, Scalable, Fresh Data]
-📖 References
-Snowflake Quickstart: Data Engineering with Notebooks
+---
 
-Snowflake Docs – Execute Immediate From
+## 🔄 Project Flow
 
-Snowflake Python Management API
+flowchart LR  
+    A[GitHub Repo<br/>Version Control + CI/CD] --> B[Snowflake Setup<br/>Roles, Warehouses, Schemas]  
+    B --> C[Pipeline Deployment<br/>Excel + City Metrics]  
+    C --> D[External Data<br/>Weather Marketplace Integration]  
+    D --> E[Task DAG Orchestration<br/>Snowpark Python API]  
+    E --> F[Business Outcomes<br/>Reliable, Scalable, Fresh Data]  
 
+---
+
+## 📖 References
+- [Snowflake Quickstart: Data Engineering with Notebooks](https://quickstarts.snowflake.com/guide/data_engineering_with_notebooks/index.html)  
+- [Snowflake Docs – Execute Immediate From](https://docs.snowflake.com/en/sql-reference/sql/execute-immediate-from)  
+- [Snowflake Python Management API](https://docs.snowflake.com/en/developer-guide/snowflake-python-api/snowflake-python-overview)  
 
 
